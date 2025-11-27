@@ -1,6 +1,6 @@
 import streamlit as st
 from app.groq_llm import get_llm
-from langchain.schema import HumanMessage, AIMessage
+from langchain_core.messages import HumanMessage, AIMessage
 
 st.set_page_config(page_title="Groq Chatbot", page_icon="🤖")
 st.title("🤖 Groq Chatbot")
